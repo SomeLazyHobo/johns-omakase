@@ -1,0 +1,223 @@
+body {
+    margin: 0 auto;
+    background: #282828;
+    font-family: 'Playfair Display SC', serif;
+} 
+
+header {
+    background-image: url(https://fox5sandiego.com/wp-content/uploads/sites/15/2022/04/soichi-sushi-7-e1650663738397.jpg?w=1620);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+/* typography */
+h1 {
+    font-size: 45px;
+    position: relative;
+    bottom: -10px;
+}
+
+h3 {
+    position: relative;
+    bottom: -25px;
+}
+
+.item {
+    margin: 0 auto;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.itemName, .totalPrice {
+    font-size: 20px;
+}
+
+.ingredients {
+    font-size: 12px;
+}
+
+.emoji {
+    display: block;
+    font-size: 50px;
+    padding: 30px 10px 0px 0px;
+    width: 50px;
+}
+
+.completeBtn, .payBtn, .processText, .totalPrice, .closeBtn {
+    font-weight: 700;
+}
+
+.completeBtn, .paymentModal {
+    font-family: 'Verdana';
+}
+
+.closeBtn, .processText {
+    font-size: 22px;
+}
+
+.removeBtn {
+    font-size: 13px;
+}
+
+/* positioning */
+.menuSection, .orderSection {
+    padding: 10px 20px 0px 20px
+}
+
+.payBtn, input, form {
+    padding: 15px; 
+}
+
+.itemInner {
+    flex-direction: row;
+    gap: 20px;
+}
+
+form { 
+    flex-direction: column;
+}
+
+.addBtn, .removeBtn {
+    align-self: center;
+}
+
+.cart, .item, .itemInner, .cartInner, .completeBtnBox, form {
+    display: flex;
+}
+
+.cart, .item {
+    justify-content: space-between;
+}
+
+.cartInner {
+    gap: 10px;
+}
+
+.thanks {
+    margin-top: 10%;
+}
+
+.formTitle {
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.itemCartPrice {
+    align-self: flex-end;
+}
+
+h2 {
+    text-align: center;
+}
+
+.completeBtnBox {
+    justify-content: center;
+    margin: auto;
+}
+
+.processText {
+    margin-top: 40%;
+}
+
+.closePaymentModal {
+    text-align: right;
+    margin: 10px;
+}
+
+/* styling */
+.addItemButton {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #dedede;
+    background: none;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.ingredients, .removeBtn {
+    color: #8B8B8B;
+}
+
+.completeBtn, .payBtn, .closeBtn {
+    border: none;
+}
+
+.addItemButton, .removeBtn, .completeBtn, .closeBtn, .payBtn {
+    cursor: pointer;
+}
+
+hr {
+    border: 1px solid #393333;
+}
+
+.itemCartPrice, .cartItem, .totalPrice, .addItemButton, .item, h3 {
+    color: #FFFFFF;
+}
+
+h1, h2 {
+    color: #FFDD33;
+}
+
+.completeBtn {
+    padding: 10px 150px;
+    border-radius: 3px;
+}
+
+.hidden, .paymentModal {
+    display: none;
+}
+
+.addItemButton:hover {
+    background-color: #8B8B8B;
+    color: black;
+    transition: 0.2s;
+}
+
+.paymentModal {
+    width: 50%;
+    height: 40%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 3px;
+    background: #393333;
+    box-shadow: 1px 1px 5px 1px #666;
+    text-align: center;
+}
+
+.payBtn {
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+input {
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #282828
+}
+
+.loading {
+    width: 100px;
+    height: auto;
+}
+
+.closeBtn {
+    background: transparent;
+    color: whitesmoke;
+}
+
+
+
+
+
+
